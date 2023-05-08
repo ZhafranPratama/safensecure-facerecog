@@ -26,3 +26,544 @@
 2023-03-16 13:21:56,759 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
 2023-03-16 13:22:59,364 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
 2023-03-16 13:24:07,448 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-05 20:32:06,684 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-05 20:33:34,506 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-05 20:35:50,048 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-06 10:37:48,537 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-06 11:09:55,793 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-06 16:11:39,245 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:13:02,055 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:14:06,874 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:15:12,485 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:15:59,036 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:18:44,800 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:19:23,340 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:20:27,986 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:21:49,408 - app - INFO - updateDataset:44 - Updating datasets... (This may took a while)
+2023-05-06 16:23:07,869 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:25:20,531 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 16:25:20,531 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 16:31:29,972 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 16:31:45,682 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/1/data/input.jpg
+2023-05-06 16:31:45,698 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 16:31:45,782 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 16:31:45,785 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:31:45,952 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 16:32:04,412 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/2/data/input.jpg
+2023-05-06 16:32:04,426 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 16:32:04,508 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 16:32:04,512 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:32:04,678 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 16:33:47,650 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:35:39,899 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 16:35:39,899 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 16:41:27,185 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 16:41:30,847 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/3/data/input.jpg
+2023-05-06 16:41:30,862 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 16:41:30,942 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 16:41:30,946 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:41:31,117 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 16:42:58,243 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 16:44:42,272 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 16:44:42,272 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 16:51:00,407 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 16:51:05,243 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/4/data/input.jpg
+2023-05-06 16:51:05,266 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 16:51:05,349 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 16:51:05,357 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:51:05,519 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 16:51:32,575 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/5/data/input.jpg
+2023-05-06 16:51:32,595 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 16:51:32,712 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 2
+2023-05-06 16:51:32,717 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:51:33,265 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:51:33,811 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 16:52:28,620 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/6/data/input.jpg
+2023-05-06 16:52:28,632 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 16:52:28,713 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 16:52:28,719 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 16:52:28,881 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 17:00:27,471 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/7/data/input.jpg
+2023-05-06 17:00:27,473 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 17:00:42,329 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/8/data/input.jpg
+2023-05-06 17:00:42,331 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 17:01:34,991 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/9/data/input.jpg
+2023-05-06 17:01:35,003 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 17:01:35,089 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 17:01:35,094 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 17:01:35,260 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 19:53:23,094 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 19:55:06,436 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 19:55:06,436 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 20:00:57,209 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 20:01:02,473 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/10/data/input.jpg
+2023-05-06 20:01:02,482 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:01:02,503 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:01:02,504 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:01:03,006 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:02:46,561 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/11/data/input.jpg
+2023-05-06 20:02:46,568 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:02:54,938 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/12/data/input.jpg
+2023-05-06 20:02:54,949 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:02:54,972 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:02:54,974 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:02:55,489 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:03:48,809 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/13/data/input.jpg
+2023-05-06 20:03:48,822 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:03:48,916 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:03:48,920 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:03:49,090 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:03:54,931 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/14/data/input.jpg
+2023-05-06 20:03:54,941 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:03:54,971 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:03:54,972 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:03:55,159 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:05:41,329 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/15/data/input.jpg
+2023-05-06 20:05:41,343 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:05:41,428 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:05:41,434 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:05:41,600 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:05:47,243 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/16/data/input.jpg
+2023-05-06 20:05:47,250 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:05:47,270 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:05:47,271 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:05:47,455 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:08:00,232 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/17/data/input.jpg
+2023-05-06 20:08:00,373 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:08:01,603 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 2
+2023-05-06 20:08:01,666 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:08:01,818 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:08:01,972 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:14:54,425 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:15:01,806 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:15:10,197 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:19:57,419 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:21:46,921 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 20:21:46,921 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 20:27:35,166 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 20:27:49,988 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/18/data/input.jpg
+2023-05-06 20:27:50,136 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:27:51,437 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 2
+2023-05-06 20:27:51,491 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:27:51,640 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:27:51,776 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:28:01,752 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/19/data/input.jpg
+2023-05-06 20:28:01,766 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:28:01,860 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:28:01,867 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:28:02,019 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:28:29,670 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/20/data/input.jpg
+2023-05-06 20:28:29,677 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:28:29,701 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:28:29,703 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:28:30,218 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:28:42,779 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/21/data/input.jpg
+2023-05-06 20:28:42,785 - app - INFO - getFaceCoordinates:121 - Grabbing faces detected from input image
+2023-05-06 20:28:42,810 - app - INFO - getFaceCoordinates:164 - Face grab success. Got total faces of 1
+2023-05-06 20:28:42,811 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 20:28:42,964 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 20:36:47,345 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:47:33,086 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:49:17,949 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:51:06,923 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:53:24,282 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:54:54,033 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 20:54:54,037 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 20:57:23,038 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 20:58:58,499 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 20:58:58,499 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 21:04:43,774 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 21:04:47,077 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/22/data/input.jpg
+2023-05-06 21:04:47,086 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:04:47,111 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 1
+2023-05-06 21:04:47,112 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:04:47,248 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:05:28,923 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/23/data/input.jpg
+2023-05-06 21:05:28,937 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:05:29,023 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 1
+2023-05-06 21:05:29,028 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:05:29,171 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:07:25,065 - app - INFO - updateDataset:45 - Updating datasets... (This may took a while)
+2023-05-06 21:09:07,557 - app - INFO - updateDataset:69 - Datasets updated!
+2023-05-06 21:09:07,557 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 21:14:52,037 - app - INFO - encodeFaces:42 - Encoding Done!
+2023-05-06 21:15:39,851 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/24/data/input.jpg
+2023-05-06 21:15:39,865 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:15:39,951 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 1
+2023-05-06 21:15:39,956 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:15:40,125 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:16:00,226 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/25/data/input.jpg
+2023-05-06 21:16:00,236 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:16:00,260 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 1
+2023-05-06 21:16:00,262 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:16:00,821 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:16:15,214 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/26/data/input.jpg
+2023-05-06 21:16:15,368 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:16:16,990 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 2
+2023-05-06 21:16:17,047 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:16:17,203 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:16:17,358 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:29:21,810 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/27/data/input.jpg
+2023-05-06 21:29:21,954 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:29:23,294 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 2
+2023-05-06 21:29:23,357 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:29:23,508 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:29:23,659 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:30:35,520 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/28/data/input.jpg
+2023-05-06 21:30:35,533 - app - INFO - getFaceCoordinates:119 - Grabbing faces detected from input image
+2023-05-06 21:30:35,620 - app - INFO - getFaceCoordinates:162 - Face grab success. Got total faces of 1
+2023-05-06 21:30:35,624 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 21:30:35,797 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 21:36:57,551 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:38:37,206 - app - INFO - updateDataset:67 - Datasets updated!
+2023-05-06 21:38:37,206 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 21:44:27,804 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:46:11,946 - app - INFO - updateDataset:67 - Datasets updated!
+2023-05-06 21:46:11,947 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 21:53:32,695 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:54:10,693 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:54:45,355 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:55:41,768 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:57:21,404 - app - INFO - updateDataset:67 - Datasets updated!
+2023-05-06 21:57:21,404 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 21:58:03,245 - app - INFO - updateDataset:43 - Updating datasets... (This may took a while)
+2023-05-06 21:59:43,266 - app - INFO - updateDataset:67 - Datasets updated!
+2023-05-06 21:59:43,266 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 22:05:36,484 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-06 22:07:15,074 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-06 22:07:15,074 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 22:13:24,533 - app - INFO - encodeFaces:43 - Encoding Done!
+2023-05-06 22:15:25,458 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/1/data/input.jpeg
+2023-05-06 22:15:25,473 - app - INFO - getFaceCoordinates:120 - Grabbing faces detected from input image
+2023-05-06 22:15:25,554 - app - INFO - getFaceCoordinates:163 - Face grab success. Got total faces of 1
+2023-05-06 22:15:25,557 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 22:15:25,723 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 22:15:39,804 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/2/data/input.jpeg
+2023-05-06 22:15:39,811 - app - INFO - getFaceCoordinates:120 - Grabbing faces detected from input image
+2023-05-06 22:15:39,835 - app - INFO - getFaceCoordinates:163 - Face grab success. Got total faces of 1
+2023-05-06 22:15:39,836 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 22:15:40,013 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 22:15:46,273 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/3/data/input.jpeg
+2023-05-06 22:15:46,282 - app - INFO - getFaceCoordinates:120 - Grabbing faces detected from input image
+2023-05-06 22:15:46,303 - app - INFO - getFaceCoordinates:163 - Face grab success. Got total faces of 1
+2023-05-06 22:15:46,305 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 22:15:46,819 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 22:16:44,288 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-06 22:18:32,341 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-06 22:18:32,341 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-06 22:31:58,098 - app - INFO - encodeFaces:43 - Encoding Done!
+2023-05-06 22:32:18,101 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/4/data/input.jpeg
+2023-05-06 22:32:18,112 - app - INFO - getFaceCoordinates:120 - Grabbing faces detected from input image
+2023-05-06 22:32:18,130 - app - INFO - getFaceCoordinates:163 - Face grab success. Got total faces of 1
+2023-05-06 22:32:18,132 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 22:32:18,660 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 22:32:27,249 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/5/data/input.jpeg
+2023-05-06 22:32:27,261 - app - INFO - getFaceCoordinates:120 - Grabbing faces detected from input image
+2023-05-06 22:32:27,338 - app - INFO - getFaceCoordinates:163 - Face grab success. Got total faces of 1
+2023-05-06 22:32:27,343 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 22:32:27,509 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 22:36:03,477 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230506/6/data/input.jpeg
+2023-05-06 22:36:03,485 - app - INFO - getFaceCoordinates:120 - Grabbing faces detected from input image
+2023-05-06 22:36:03,504 - app - INFO - getFaceCoordinates:163 - Face grab success. Got total faces of 1
+2023-05-06 22:36:03,505 - app - INFO - recog:85 - Recognizing faces into user IDs
+2023-05-06 22:36:04,018 - app - INFO - process:77 - API return success. Request fulfilled.
+2023-05-06 22:38:55,989 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-06 22:40:46,291 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-06 22:40:46,306 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-07 10:20:49,622 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:22:47,747 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:24:13,787 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:26:30,004 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:30:36,093 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:32:40,655 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-07 10:32:40,655 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-07 10:37:07,229 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:38:16,628 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 10:40:25,924 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-07 10:40:25,925 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-07 10:54:06,838 - app - INFO - encodeFaces:43 - Encoding Done!
+2023-05-07 11:01:50,701 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/1/data/input.jpeg
+2023-05-07 11:02:56,753 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 11:05:29,604 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-07 11:05:29,605 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-07 11:19:10,541 - app - INFO - encodeFaces:43 - Encoding Done!
+2023-05-07 11:19:14,904 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/2/data/input.jpeg
+2023-05-07 11:19:17,030 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:19:18,925 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 0
+2023-05-07 11:19:19,042 - app - INFO - process:57 - API return success with exception: No face detected. Files removed
+2023-05-07 11:19:31,117 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/2/data/input.jpeg
+2023-05-07 11:19:32,673 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:19:34,311 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 0
+2023-05-07 11:19:34,416 - app - INFO - process:57 - API return success with exception: No face detected. Files removed
+2023-05-07 11:19:41,982 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/2/data/input.jpeg
+2023-05-07 11:19:43,607 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:19:45,063 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 0
+2023-05-07 11:19:45,125 - app - INFO - process:57 - API return success with exception: No face detected. Files removed
+2023-05-07 11:19:58,972 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/2/data/input.jpeg
+2023-05-07 11:20:00,684 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:20:02,403 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 1
+2023-05-07 11:20:02,474 - app - INFO - recog:91 - Recognizing faces into user IDs
+2023-05-07 11:20:02,685 - app - INFO - process:83 - API return success. Request fulfilled.
+2023-05-07 11:24:29,105 - app - INFO - updateDataset:46 - Updating datasets... (This may took a while)
+2023-05-07 11:26:53,231 - app - INFO - updateDataset:70 - Datasets updated!
+2023-05-07 11:26:53,232 - app - INFO - encodeFaces:32 - Encoding Faces... (This may take a while)
+2023-05-07 11:41:35,038 - app - INFO - encodeFaces:43 - Encoding Done!
+2023-05-07 11:42:48,038 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/3/data/input.jpeg
+2023-05-07 11:42:49,178 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:42:50,262 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 0
+2023-05-07 11:42:50,341 - app - INFO - process:56 - API return success with exception: No face detected. Files removed
+2023-05-07 11:42:54,271 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/3/data/input.jpeg
+2023-05-07 11:42:55,354 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:42:56,305 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 0
+2023-05-07 11:42:56,372 - app - INFO - process:56 - API return success with exception: No face detected. Files removed
+2023-05-07 11:43:02,520 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/3/data/input.jpeg
+2023-05-07 11:43:02,575 - app - INFO - getFaceCoordinates:134 - Grabbing faces detected from input image
+2023-05-07 11:43:02,635 - app - INFO - getFaceCoordinates:177 - Face grab success. Got total faces of 1
+2023-05-07 11:43:02,638 - app - INFO - recog:90 - Recognizing faces into user IDs
+2023-05-07 11:43:03,195 - app - INFO - process:82 - API return success. Request fulfilled.
+2023-05-07 11:43:17,152 - app - INFO - process:42 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230507/4/data/input.jpeg
+2023-05-08 10:20:32,623 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 10:23:04,838 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 10:23:04,838 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 10:24:46,330 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 10:26:54,038 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 10:26:54,038 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 10:35:10,429 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 10:35:10,429 - app - INFO - encodeFacesVGG:64 - VGG : First time training, creating new initial train file.
+2023-05-08 10:35:10,431 - app - INFO - updateDatasetVGG:180 - VGG : Updating datasets... (This may took a while)
+2023-05-08 10:37:11,499 - app - INFO - updateDatasetVGG:209 - VGG : Datasets updated!
+2023-05-08 10:37:11,500 - app - INFO - encodeFacesVGG:70 - VGG : Encoding Faces... (This may take a while)
+2023-05-08 10:41:25,979 - app - INFO - encodeFacesVGG:150 - VGG : Encoding Done!
+2023-05-08 10:41:33,571 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/1/data/input.jpeg
+2023-05-08 10:45:49,918 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 10:48:19,024 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 10:48:19,025 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 10:56:24,320 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 10:56:24,324 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 10:56:30,051 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/2/data/input.jpeg
+2023-05-08 10:56:30,145 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 10:56:30,237 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 10:56:30,240 - app - INFO - recogFaceRecog:140 - Recognizing faces into user IDs
+2023-05-08 10:56:30,851 - app - INFO - process:84 - API return success. Request fulfilled.
+2023-05-08 10:56:40,727 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/3/data/input.jpeg
+2023-05-08 10:56:42,005 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 10:56:43,144 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 0
+2023-05-08 10:56:43,179 - app - INFO - process:57 - API return success with exception: No face detected. Files removed
+2023-05-08 11:00:09,238 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/3/data/input.jpeg
+2023-05-08 11:07:09,112 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 11:09:20,870 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 11:09:20,875 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 11:17:46,098 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 11:17:46,100 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:17:54,179 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/4/data/input.jpeg
+2023-05-08 11:17:54,325 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:17:55,628 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 2
+2023-05-08 11:17:55,682 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:17:55,853 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:17:56,008 - app - INFO - processVGG:109 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/1/data/input.jpg
+2023-05-08 11:17:56,009 - app - INFO - recogVGG:161 - Recognizing faces into user IDs
+2023-05-08 11:23:51,706 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/5/data/input.jpeg
+2023-05-08 11:23:51,721 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:23:51,803 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:23:51,806 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:23:51,978 - app - INFO - processVGG:109 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/2/data/input.jpg
+2023-05-08 11:23:51,979 - app - INFO - recogVGG:161 - Recognizing faces into user IDs
+2023-05-08 11:24:45,233 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 11:27:16,188 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 11:27:16,188 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 11:31:08,265 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:31:12,008 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/6/data/input.jpeg
+2023-05-08 11:31:12,021 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:31:12,106 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:31:12,111 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:31:12,286 - app - INFO - processVGG:109 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/3/data/input.jpg
+2023-05-08 11:31:12,287 - app - INFO - recogVGG:161 - Recognizing faces into user IDs
+2023-05-08 11:34:44,765 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:34:48,573 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/7/data/input.jpeg
+2023-05-08 11:34:48,589 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:34:48,675 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:34:48,682 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:34:48,846 - app - INFO - processVGG:109 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/7/data/input.jpg
+2023-05-08 11:34:48,847 - app - INFO - recogVGG:161 - Recognizing faces into user IDs
+2023-05-08 11:35:51,308 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:35:55,578 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/8/data/input.jpeg
+2023-05-08 11:35:55,595 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:35:55,684 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:35:55,688 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:35:55,856 - app - INFO - processVGG:109 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/9/data/input.jpeg
+2023-05-08 11:35:55,856 - app - INFO - recogVGG:161 - Recognizing faces into user IDs
+2023-05-08 11:38:10,068 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:38:13,357 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/10/data/input.jpeg
+2023-05-08 11:38:13,377 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:38:13,464 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:38:13,467 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:39:53,188 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:40:01,102 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/12/data/input.jpeg
+2023-05-08 11:40:01,114 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:40:01,199 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:40:01,202 - app - INFO - recogFaceRecog:135 - Recognizing faces into user IDs
+2023-05-08 11:41:43,994 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:42:07,219 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:42:13,741 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/14/data/input.jpeg
+2023-05-08 11:42:13,753 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:42:13,838 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:42:13,844 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 11:42:14,010 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 11:42:20,565 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 11:42:20,566 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 11:42:52,311 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/15/data/input.jpeg
+2023-05-08 11:42:52,325 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:42:52,420 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:42:52,424 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 11:42:52,589 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 11:42:53,296 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 11:42:53,298 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 11:43:11,192 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/16/data/input.jpeg
+2023-05-08 11:43:11,342 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:43:12,894 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 2
+2023-05-08 11:43:12,989 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 11:43:13,157 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 11:43:13,319 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 11:43:16,079 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 11:43:16,079 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 11:43:18,470 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 11:43:18,471 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 11:43:29,138 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/17/data/input.jpeg
+2023-05-08 11:43:29,144 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 11:43:29,171 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 11:43:29,172 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 11:43:29,358 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 11:43:30,999 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 11:43:30,001 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 11:45:14,299 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:47:19,277 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:47:49,897 - app - INFO - encodeFacesVGG:57 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-05-08 11:48:31,513 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 11:49:26,925 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 11:51:35,776 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 11:51:35,776 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 11:58:31,761 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 11:58:31,762 - app - INFO - encodeFacesVGG:64 - VGG : First time training, creating new initial train file.
+2023-05-08 11:58:31,763 - app - INFO - updateDatasetVGG:180 - VGG : Updating datasets... (This may took a while)
+2023-05-08 12:00:32,770 - app - INFO - updateDatasetVGG:209 - VGG : Datasets updated!
+2023-05-08 12:00:32,770 - app - INFO - encodeFacesVGG:70 - VGG : Encoding Faces... (This may take a while)
+2023-05-08 12:04:36,364 - app - INFO - encodeFacesVGG:150 - VGG : Encoding Done!
+2023-05-08 12:21:13,533 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/3/data/input.jpeg
+2023-05-08 12:21:13,542 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 12:21:13,567 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 12:21:13,568 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:21:14,134 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 12:21:22,697 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/9/data/input.jpeg
+2023-05-08 12:21:22,711 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 12:21:22,792 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 12:21:22,795 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:21:22,963 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 12:21:24,475 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 12:21:24,476 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 12:22:09,791 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/18/data/input.jpeg
+2023-05-08 12:22:09,806 - app - INFO - getFaceCoordinates:275 - Grabbing faces detected from input image
+2023-05-08 12:22:09,884 - app - INFO - getFaceCoordinates:318 - Face grab success. Got total faces of 1
+2023-05-08 12:22:09,888 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:22:10,062 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 12:22:10,716 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 12:22:10,718 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 12:26:10,759 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 12:26:26,148 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b84c.jpeg
+2023-05-08 12:27:42,932 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b879.jpeg
+2023-05-08 12:28:01,482 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 12:28:01,483 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 12:34:15,776 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 12:34:15,778 - app - INFO - encodeFacesVGG:64 - VGG : First time training, creating new initial train file.
+2023-05-08 12:34:15,778 - app - INFO - updateDatasetVGG:180 - VGG : Updating datasets... (This may took a while)
+2023-05-08 12:34:33,468 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b84c/64002924e3ef43e72bf1b84c.jpeg
+2023-05-08 12:35:53,017 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b879/64002924e3ef43e72bf1b879.jpeg
+2023-05-08 12:36:01,749 - app - ERROR - imgAugmentation:235 - ERROR - cannot convert float infinity to integer. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b87e/64002924e3ef43e72bf1b87e.jpeg
+2023-05-08 12:36:12,579 - app - INFO - updateDatasetVGG:209 - VGG : Datasets updated!
+2023-05-08 12:36:12,580 - app - INFO - encodeFacesVGG:70 - VGG : Encoding Faces... (This may take a while)
+2023-05-08 12:40:30,800 - app - INFO - encodeFacesVGG:150 - VGG : Encoding Done!
+2023-05-08 12:41:43,841 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/19/data/input.jpeg
+2023-05-08 12:41:43,853 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 12:41:43,931 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 12:41:43,938 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:41:44,122 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 12:41:45,893 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 12:41:45,895 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 12:43:56,571 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 12:44:12,360 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 12:44:29,117 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b84c.jpeg
+2023-05-08 12:45:48,104 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b879.jpeg
+2023-05-08 12:46:06,163 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 12:46:06,164 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 12:51:55,625 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 12:51:55,625 - app - INFO - encodeFacesVGG:64 - VGG : First time training, creating new initial train file.
+2023-05-08 12:51:55,636 - app - INFO - updateDatasetVGG:180 - VGG : Updating datasets... (This may took a while)
+2023-05-08 12:52:13,559 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b84c/64002924e3ef43e72bf1b84c.jpeg
+2023-05-08 12:53:36,460 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b879/64002924e3ef43e72bf1b879.jpeg
+2023-05-08 12:53:56,837 - app - INFO - updateDatasetVGG:209 - VGG : Datasets updated!
+2023-05-08 12:53:56,837 - app - INFO - encodeFacesVGG:70 - VGG : Encoding Faces... (This may take a while)
+2023-05-08 12:57:56,754 - app - INFO - encodeFacesVGG:150 - VGG : Encoding Done!
+2023-05-08 12:59:09,674 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/20/data/input.jpeg
+2023-05-08 12:59:09,688 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 12:59:09,780 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 12:59:09,784 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:59:09,961 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 12:59:11,774 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 12:59:11,776 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 12:59:23,126 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/21/data/input.jpeg
+2023-05-08 12:59:23,134 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 12:59:23,161 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 12:59:23,162 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:59:23,687 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 12:59:35,537 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/22/data/input.jpeg
+2023-05-08 12:59:35,551 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 12:59:35,645 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 12:59:35,650 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 12:59:35,820 - app - INFO - recogVGG:135 - Recognizing faces into user IDs
+2023-05-08 12:59:36,495 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 12:59:36,496 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 13:04:11,436 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 13:05:40,268 - app - INFO - updateDatasetFaceRecog:153 - FaceRecog : Updating datasets... (This may took a while)
+2023-05-08 13:05:56,262 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b84c.jpeg
+2023-05-08 13:07:07,278 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b879.jpeg
+2023-05-08 13:07:23,029 - app - INFO - updateDatasetFaceRecog:177 - FaceRecog : Datasets updated!
+2023-05-08 13:07:23,032 - app - INFO - encodeFacesFaceRecog:41 - FaceRecog : Encoding Faces... (This may take a while)
+2023-05-08 13:13:16,219 - app - INFO - encodeFacesFaceRecog:52 - FaceRecog : Encoding Done!
+2023-05-08 13:13:16,224 - app - INFO - encodeFacesVGG:64 - VGG : First time training, creating new initial train file.
+2023-05-08 13:13:16,224 - app - INFO - updateDatasetVGG:180 - VGG : Updating datasets... (This may took a while)
+2023-05-08 13:13:30,862 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b84c/64002924e3ef43e72bf1b84c.jpeg
+2023-05-08 13:13:59,469 - app - ERROR - imgAugmentation:235 - ERROR - cannot convert float infinity to integer. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b85d/64002924e3ef43e72bf1b85d.jpeg
+2023-05-08 13:14:47,833 - app - ERROR - imgAugmentation:235 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/VGG/64002924e3ef43e72bf1b879/64002924e3ef43e72bf1b879.jpeg
+2023-05-08 13:15:05,509 - app - INFO - updateDatasetVGG:209 - VGG : Datasets updated!
+2023-05-08 13:15:05,509 - app - INFO - encodeFacesVGG:70 - VGG : Encoding Faces... (This may take a while)
+2023-05-08 13:19:07,536 - app - INFO - encodeFacesVGG:150 - VGG : Encoding Done!
+2023-05-08 13:19:15,929 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/23/data/input.jpeg
+2023-05-08 13:19:15,937 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 13:19:16,029 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 13:19:16,034 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 13:19:16,222 - app - INFO - recogVGG:133 - Recognizing faces into user IDs
+2023-05-08 13:19:18,007 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 13:19:18,007 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 13:19:25,839 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/24/data/input.jpeg
+2023-05-08 13:19:25,847 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 13:19:25,869 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 13:19:25,871 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 13:19:26,413 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-05-08 13:19:35,402 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230508/25/data/input.jpeg
+2023-05-08 13:19:35,409 - app - INFO - getFaceCoordinates:264 - Grabbing faces detected from input image
+2023-05-08 13:19:35,434 - app - INFO - getFaceCoordinates:307 - Face grab success. Got total faces of 1
+2023-05-08 13:19:35,437 - app - INFO - recogFaceRecog:109 - Recognizing faces into user IDs
+2023-05-08 13:19:35,617 - app - INFO - recogVGG:133 - Recognizing faces into user IDs
+2023-05-08 13:19:36,245 - app - INFO - processVGG:101 - API return success. Request fulfilled.
+2023-05-08 13:19:36,246 - app - INFO - process:79 - API return success. Request fulfilled.

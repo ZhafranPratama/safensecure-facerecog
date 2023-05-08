@@ -11,3 +11,10 @@ tqdm==4.64.1
 pytz==2019.3
 pillow==9.3.0
 apscheduler==3.9.1.post1
+pickleshare==0.7.5
+keras==2.7.0
+keras-vggface==0.6
+keras-applications==1.0.8
+keras-preprocessing==1.1.2
+tensorflow-gpu==2.7.0
+protobuf==3.20.*

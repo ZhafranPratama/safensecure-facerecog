@@ -1,13 +1,15 @@
 # Run daily dataset update and encode
 
-from ..api.api_v1.services.facerecog_service import recogService
+from ..api.api_v1.load_models import Models
 from apscheduler.schedulers.background import BackgroundScheduler
 from .logging import logger
 
+models = Models()
 def dailyEncode():
     try:
         logger.info("Running daily dataset update and encoding...")
-        recogService.encodeFaces()
+        models.encodeFacesFaceRecog()
+        models.encodeFacesVGG()
         logger.info("Daily dataset updated and encoded!")
     except:
         logger.error("Daily dataset update and encoding failed.")
