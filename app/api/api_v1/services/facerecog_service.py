@@ -58,18 +58,17 @@ class RecogService:
             try:
                 resultRaw.append(self.recogFaceRecog(f"{CWD}/data/output/{currentFilename}"))
             except:
-                resultRaw.append(self.processVGG(filename, count))
+                resultRaw.append(self.recogVGG(f"{CWD}/data/output/{currentFilename}", count))
 
         frameNames = (i.split("/")[-1].split(".")[0] for i in filenames)
         
         result = {}
         for i, frameName in enumerate(frameNames):
-            userDetected = resultRaw[i][0]
-            confidence = resultRaw[i][1]
+            userDetected = resultRaw[i]
             if userDetected == "Unknown":
-                result.update({frameName: "Unknown :: 0%"})
+                result.update({frameName: "Unknown"})
             else:
-                result.update({frameName: f"{userDetected} :: {confidence}"})
+                result.update({frameName: f"{userDetected}"})
         
         JSONFilename = f"{CWD}/data/output/{timeNow}/{count}/data/face.json"
 
@@ -79,27 +78,27 @@ class RecogService:
         logger.info("API return success. Request fulfilled.")
         return {"path_frame": filenames, "path_result": JSONFilename.split("output/")[1], "result": result, "status": 1}
     
-    def processVGG(self, image, count):
-        # Get time now for filename
-        timeNow = self.getTimeNow()
-        facesDetected, frameNames = self.recogVGG(image, count)
+    # def processVGG(self, image, count):
+    #     # Get time now for filename
+    #     timeNow = self.getTimeNow()
+    #     facesDetected, frameNames = self.recogVGG(image, count)
 
-        if len(facesDetected) == 0:
-            logger.info("API return success with exception: No face detected. Files removed")
-            os.remove(image)
-            return {"path_frame": None, "path_result": None, "result": None, "error_message": "No face detected", "status": 0}
+    #     if len(facesDetected) == 0:
+    #         logger.info("API return success with exception: No face detected. Files removed")
+    #         os.remove(image)
+    #         return {"path_frame": None, "path_result": None, "result": None, "error_message": "No face detected", "status": 0}
         
-        result = {}
-        for i, frameName in enumerate(frameNames):
-            result.update({frameName.split("/frame/")[1].split(".")[0]: f"{facesDetected[i]}"})
+    #     result = {}
+    #     for i, frameName in enumerate(frameNames):
+    #         result.update({frameName.split("/frame/")[1].split(".")[0]: f"{facesDetected[i]}"})
 
-        JSONFilename = f"{CWD}/data/output/{timeNow}/{count}/data/face.json"
+    #     JSONFilename = f"{CWD}/data/output/{timeNow}/{count}/data/face.json"
 
-        with open(JSONFilename, "w") as f:
-            f.write(str(result))
+    #     with open(JSONFilename, "w") as f:
+    #         f.write(str(result))
 
-        logger.info("API return success. Request fulfilled.")
-        return result
+    #     logger.info("API return success. Request fulfilled.")
+    #     return result
 
     def getTimeNow(self):
         # before: %d-%b-%y.%H-%M-%S
@@ -124,10 +123,10 @@ class RecogService:
                 confidence = i.split("jpeg (")[1].split("%")[0]
             # Threshold confidence of 85% for the API to return
             if float(confidence) > 85 or IDdetected != "Unknown":
-                tmpFaceNames.append([IDdetected, f"{confidence}%"])
+                tmpFaceNames.append([IDdetected.split(".")[0], f"{confidence}%"])
         faceNames = tmpFaceNames
 
-        return [faceNames[0][0], faceNames[0][1]]
+        return faceNames[0][0]
     
     def recogVGG(self, filename: str, requestFolderCount: int):
         logger.info("Recognizing faces into user IDs")
@@ -202,7 +201,7 @@ class RecogService:
             predicted_prob = model.predict(x)
             facesDetected.append(class_list[predicted_prob[0].argmax()])
 
-        return facesDetected, frames
+        return facesDetected[0]
 
     def getFaceNames(self, frame):
         # Find all the faces and face encodings in the image

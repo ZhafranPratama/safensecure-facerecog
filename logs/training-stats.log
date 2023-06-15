@@ -567,3 +567,61 @@
 2023-05-08 13:19:35,617 - app - INFO - recogVGG:133 - Recognizing faces into user IDs
 2023-05-08 13:19:36,245 - app - INFO - processVGG:101 - API return success. Request fulfilled.
 2023-05-08 13:19:36,246 - app - INFO - process:79 - API return success. Request fulfilled.
+2023-06-15 14:11:36,511 - app - INFO - updateDatasetFaceRecog:159 - FaceRecog : Updating datasets... (This may took a while)
+2023-06-15 14:11:54,229 - app - ERROR - imgAugmentation:241 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b84c.jpeg
+2023-06-15 14:13:09,394 - app - ERROR - imgAugmentation:241 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b879.jpeg
+2023-06-15 14:13:27,164 - app - INFO - updateDatasetFaceRecog:183 - FaceRecog : Datasets updated!
+2023-06-15 14:13:27,164 - app - INFO - encodeFacesFaceRecog:47 - FaceRecog : Encoding Faces... (This may take a while)
+2023-06-15 14:19:02,716 - app - INFO - encodeFacesFaceRecog:58 - FaceRecog : Encoding Done!
+2023-06-15 14:19:02,717 - app - INFO - encodeFacesVGG:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-06-15 14:20:29,359 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230615/1/data/input.jpeg
+2023-06-15 14:20:29,373 - app - INFO - getFaceCoordinates:270 - Grabbing faces detected from input image
+2023-06-15 14:20:29,398 - app - INFO - getFaceCoordinates:313 - Face grab success. Got total faces of 1
+2023-06-15 14:20:29,400 - app - INFO - recogFaceRecog:108 - Recognizing faces into user IDs
+2023-06-15 14:20:29,936 - app - INFO - process:78 - API return success. Request fulfilled.
+2023-06-15 14:20:49,343 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230615/2/data/input.jpeg
+2023-06-15 14:20:49,356 - app - INFO - getFaceCoordinates:270 - Grabbing faces detected from input image
+2023-06-15 14:20:49,477 - app - INFO - getFaceCoordinates:313 - Face grab success. Got total faces of 1
+2023-06-15 14:20:49,480 - app - INFO - recogFaceRecog:108 - Recognizing faces into user IDs
+2023-06-15 14:23:58,127 - app - INFO - updateDatasetFaceRecog:159 - FaceRecog : Updating datasets... (This may took a while)
+2023-06-15 14:24:16,207 - app - ERROR - imgAugmentation:241 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b84c.jpeg
+2023-06-15 14:25:23,783 - app - ERROR - imgAugmentation:241 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b879.jpeg
+2023-06-15 14:25:40,313 - app - INFO - updateDatasetFaceRecog:183 - FaceRecog : Datasets updated!
+2023-06-15 14:25:40,313 - app - INFO - encodeFacesFaceRecog:47 - FaceRecog : Encoding Faces... (This may take a while)
+2023-06-15 14:31:14,303 - app - INFO - encodeFacesFaceRecog:58 - FaceRecog : Encoding Done!
+2023-06-15 14:31:14,304 - app - INFO - encodeFacesVGG:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-06-15 14:31:35,696 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230615/3/data/input.jpeg
+2023-06-15 14:31:35,703 - app - INFO - getFaceCoordinates:270 - Grabbing faces detected from input image
+2023-06-15 14:31:35,720 - app - INFO - getFaceCoordinates:313 - Face grab success. Got total faces of 1
+2023-06-15 14:31:35,722 - app - INFO - recogFaceRecog:108 - Recognizing faces into user IDs
+2023-06-15 14:31:36,243 - app - INFO - process:78 - API return success. Request fulfilled.
+2023-06-15 14:32:56,817 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230615/4/data/input.jpeg
+2023-06-15 14:32:56,830 - app - INFO - getFaceCoordinates:270 - Grabbing faces detected from input image
+2023-06-15 14:32:56,910 - app - INFO - getFaceCoordinates:313 - Face grab success. Got total faces of 1
+2023-06-15 14:32:56,914 - app - INFO - recogFaceRecog:108 - Recognizing faces into user IDs
+2023-06-15 14:32:57,076 - app - INFO - recogVGG:132 - Recognizing faces into user IDs
+2023-06-15 14:33:26,557 - app - INFO - process:78 - API return success. Request fulfilled.
+2023-06-15 14:34:33,347 - app - INFO - updateDatasetFaceRecog:159 - FaceRecog : Updating datasets... (This may took a while)
+2023-06-15 14:34:50,759 - app - ERROR - imgAugmentation:241 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b84c.jpeg
+2023-06-15 14:36:02,538 - app - ERROR - imgAugmentation:241 - ERROR - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+. Filename: C:\Project\pol-yunetfacerecoglib-recog/data/dataset/FaceRecog/64002924e3ef43e72bf1b879.jpeg
+2023-06-15 14:36:18,819 - app - INFO - updateDatasetFaceRecog:183 - FaceRecog : Datasets updated!
+2023-06-15 14:36:18,819 - app - INFO - encodeFacesFaceRecog:47 - FaceRecog : Encoding Faces... (This may take a while)
+2023-06-15 14:41:55,486 - app - INFO - encodeFacesFaceRecog:58 - FaceRecog : Encoding Done!
+2023-06-15 14:41:55,486 - app - INFO - encodeFacesVGG:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-06-15 14:42:27,941 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230615/5/data/input.jpeg
+2023-06-15 14:42:27,955 - app - INFO - getFaceCoordinates:270 - Grabbing faces detected from input image
+2023-06-15 14:42:28,034 - app - INFO - getFaceCoordinates:313 - Face grab success. Got total faces of 1
+2023-06-15 14:42:28,037 - app - INFO - recogFaceRecog:108 - Recognizing faces into user IDs
+2023-06-15 14:42:28,202 - app - INFO - recogVGG:132 - Recognizing faces into user IDs
+2023-06-15 14:42:34,896 - app - INFO - process:78 - API return success. Request fulfilled.
+2023-06-15 14:42:53,917 - app - INFO - process:43 - Saving image to C:\Project\pol-yunetfacerecoglib-recog/data/output/20230615/6/data/input.jpeg
+2023-06-15 14:42:53,925 - app - INFO - getFaceCoordinates:270 - Grabbing faces detected from input image
+2023-06-15 14:42:53,945 - app - INFO - getFaceCoordinates:313 - Face grab success. Got total faces of 1
+2023-06-15 14:42:53,946 - app - INFO - recogFaceRecog:108 - Recognizing faces into user IDs
+2023-06-15 14:42:54,469 - app - INFO - process:78 - API return success. Request fulfilled.

@@ -13,9 +13,9 @@ from PIL import Image, ImageOps, ImageEnhance
 import json
 
 # Fixing vggface import error
-filename = "/usr/local/lib/python3.8/dist-packages/keras_vggface/models.py"
-text = open(filename).read()
-open(filename, "w+").write(text.replace('keras.engine.topology', 'keras.utils.layer_utils'))
+# filename = "/usr/local/lib/python3.8/dist-packages/keras_vggface/models.py"
+# text = open(filename).read()
+# open(filename, "w+").write(text.replace('keras.engine.topology', 'keras.utils.layer_utils'))
 
 from keras.layers import Dense, GlobalAveragePooling2D
 from keras.applications.mobilenet import preprocess_input
