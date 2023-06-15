@@ -58,7 +58,7 @@ class RecogService:
             try:
                 resultRaw.append(self.recogFaceRecog(f"{CWD}/data/output/{currentFilename}"))
             except:
-                resultRaw.append(["Unknown", "0%"])
+                resultRaw.append(self.processVGG(filename, count))
 
         frameNames = (i.split("/")[-1].split(".")[0] for i in filenames)
         
@@ -67,7 +67,7 @@ class RecogService:
             userDetected = resultRaw[i][0]
             confidence = resultRaw[i][1]
             if userDetected == "Unknown":
-                result.update(self.processVGG(filename, count))
+                result.update({frameName: "Unknown :: 0%"})
             else:
                 result.update({frameName: f"{userDetected} :: {confidence}"})
         
