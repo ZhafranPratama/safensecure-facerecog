@@ -18,3 +18,4 @@ keras-applications==1.0.8
 keras-preprocessing==1.1.2
 tensorflow-gpu==2.7.0
 protobuf==3.20.*
+uuid==1.30
