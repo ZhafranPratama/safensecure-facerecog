@@ -193,3 +193,257 @@
 2023-06-15 14:41:55,631 - uvicorn.error - INFO - startup:61 - Application startup complete.
 2023-06-15 14:42:34,897 - uvicorn.access - INFO - send:495 - 127.0.0.1:55141 - "POST /api/v1/ HTTP/1.1" 200
 2023-06-15 14:42:54,469 - uvicorn.access - INFO - send:495 - 127.0.0.1:55147 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-15 16:06:19,301 - uvicorn.error - INFO - serve:75 - Started server process [17088]
+2023-06-15 16:06:19,302 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-15 16:06:19,303 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-15 16:15:12,930 - uvicorn.access - INFO - send:495 - 127.0.0.1:56302 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-15 16:16:35,891 - uvicorn.error - INFO - shutdown:255 - Shutting down
+2023-06-15 16:24:32,316 - uvicorn.error - INFO - serve:75 - Started server process [4932]
+2023-06-15 16:24:32,317 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-15 16:24:32,318 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-15 16:26:17,097 - uvicorn.access - INFO - send:495 - 127.0.0.1:56487 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-15 16:36:25,772 - uvicorn.error - INFO - serve:75 - Started server process [15388]
+2023-06-15 16:36:25,773 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-15 16:36:25,774 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-15 16:38:57,782 - uvicorn.access - INFO - send:495 - 127.0.0.1:56665 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-15 16:48:40,716 - uvicorn.error - INFO - serve:75 - Started server process [6728]
+2023-06-15 16:48:40,716 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-15 16:48:40,718 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-15 16:49:33,379 - uvicorn.access - INFO - send:495 - 127.0.0.1:56842 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-15 16:57:39,786 - uvicorn.error - INFO - serve:75 - Started server process [15700]
+2023-06-15 16:57:39,786 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-15 16:57:39,787 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-15 16:58:28,602 - uvicorn.access - INFO - send:495 - 127.0.0.1:57016 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 09:13:48,364 - uvicorn.error - INFO - serve:75 - Started server process [14860]
+2023-06-16 09:13:48,366 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:13:48,368 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:14:31,219 - uvicorn.access - INFO - send:495 - 127.0.0.1:50987 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 09:16:39,082 - uvicorn.access - INFO - send:495 - 127.0.0.1:51013 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 09:27:51,076 - uvicorn.error - INFO - serve:75 - Started server process [11888]
+2023-06-16 09:27:51,076 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:27:51,076 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:28:00,747 - uvicorn.access - INFO - send:495 - 127.0.0.1:51107 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 09:29:57,187 - uvicorn.error - INFO - serve:75 - Started server process [16996]
+2023-06-16 09:29:57,188 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:29:57,188 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:45:59,981 - uvicorn.error - INFO - serve:75 - Started server process [6564]
+2023-06-16 09:45:59,985 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:45:59,985 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:47:21,204 - uvicorn.access - INFO - send:495 - 127.0.0.1:51322 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 09:47:46,355 - uvicorn.access - INFO - send:495 - 127.0.0.1:51326 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 09:55:40,628 - uvicorn.error - INFO - serve:75 - Started server process [14056]
+2023-06-16 09:55:40,629 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:55:40,631 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:56:07,125 - uvicorn.access - INFO - send:495 - 127.0.0.1:51570 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 09:57:27,452 - uvicorn.error - INFO - serve:75 - Started server process [4656]
+2023-06-16 09:57:27,452 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:57:27,460 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:57:57,927 - uvicorn.error - INFO - serve:75 - Started server process [8656]
+2023-06-16 09:57:57,934 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:57:57,934 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:58:01,565 - uvicorn.access - INFO - send:495 - 127.0.0.1:51601 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 09:58:49,605 - uvicorn.error - INFO - serve:75 - Started server process [16708]
+2023-06-16 09:58:49,605 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 09:58:49,607 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 09:58:52,942 - uvicorn.access - INFO - send:495 - 127.0.0.1:51612 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:00:18,312 - uvicorn.error - INFO - serve:75 - Started server process [1660]
+2023-06-16 10:00:18,312 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:00:18,314 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:00:21,000 - uvicorn.access - INFO - send:495 - 127.0.0.1:51628 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:08:17,246 - uvicorn.error - INFO - serve:75 - Started server process [15644]
+2023-06-16 10:08:17,249 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:08:17,250 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:08:31,082 - uvicorn.access - INFO - send:495 - 127.0.0.1:51686 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:15:43,306 - uvicorn.error - INFO - serve:75 - Started server process [8008]
+2023-06-16 10:15:43,306 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:15:43,308 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:16:05,059 - uvicorn.error - INFO - serve:75 - Started server process [9668]
+2023-06-16 10:16:05,059 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:16:05,062 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:17:12,086 - uvicorn.error - INFO - serve:75 - Started server process [9424]
+2023-06-16 10:17:12,086 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:17:12,096 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:18:09,211 - uvicorn.error - INFO - serve:75 - Started server process [9328]
+2023-06-16 10:18:09,214 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:18:09,216 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:18:45,713 - uvicorn.error - INFO - serve:75 - Started server process [7392]
+2023-06-16 10:18:45,718 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:18:45,718 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:19:00,023 - uvicorn.access - INFO - send:495 - 127.0.0.1:51778 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:20:11,185 - uvicorn.error - INFO - serve:75 - Started server process [10348]
+2023-06-16 10:20:11,187 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:20:11,187 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:22:56,993 - uvicorn.error - INFO - serve:75 - Started server process [13640]
+2023-06-16 10:22:56,993 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:22:56,993 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:22:59,480 - uvicorn.access - INFO - send:495 - 127.0.0.1:51828 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:23:36,729 - uvicorn.error - INFO - serve:75 - Started server process [8428]
+2023-06-16 10:23:36,732 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:23:36,736 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:23:40,685 - uvicorn.access - INFO - send:495 - 127.0.0.1:51839 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:24:50,192 - uvicorn.error - INFO - serve:75 - Started server process [3312]
+2023-06-16 10:24:50,193 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:24:50,194 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:24:52,956 - uvicorn.access - INFO - send:495 - 127.0.0.1:51860 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:28:42,364 - uvicorn.error - INFO - serve:75 - Started server process [15244]
+2023-06-16 10:28:42,365 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:28:42,365 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:28:53,862 - uvicorn.access - INFO - send:495 - 127.0.0.1:51915 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:29:58,216 - uvicorn.error - INFO - serve:75 - Started server process [3876]
+2023-06-16 10:29:58,218 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:29:58,218 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:30:20,104 - uvicorn.error - INFO - serve:75 - Started server process [4948]
+2023-06-16 10:30:20,108 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:30:20,108 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:30:44,987 - uvicorn.error - INFO - serve:75 - Started server process [9320]
+2023-06-16 10:30:44,987 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:30:44,987 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:32:24,435 - uvicorn.error - INFO - serve:75 - Started server process [14008]
+2023-06-16 10:32:24,435 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:32:24,435 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:32:27,042 - uvicorn.access - INFO - send:495 - 127.0.0.1:51972 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:34:06,893 - uvicorn.error - INFO - serve:75 - Started server process [16124]
+2023-06-16 10:34:06,895 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:34:06,895 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:34:25,293 - uvicorn.error - INFO - serve:75 - Started server process [12692]
+2023-06-16 10:34:25,293 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:34:25,296 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:34:36,830 - uvicorn.access - INFO - send:495 - 127.0.0.1:52019 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:35:42,322 - uvicorn.error - INFO - serve:75 - Started server process [7628]
+2023-06-16 10:35:42,322 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:35:42,326 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:35:45,873 - uvicorn.access - INFO - send:495 - 127.0.0.1:52039 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:37:06,481 - uvicorn.error - INFO - serve:75 - Started server process [16616]
+2023-06-16 10:37:06,481 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:37:06,481 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:37:09,149 - uvicorn.access - INFO - send:495 - 127.0.0.1:52053 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:40:29,753 - uvicorn.error - INFO - serve:75 - Started server process [13212]
+2023-06-16 10:40:29,753 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:40:29,759 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:41:25,698 - uvicorn.error - INFO - serve:75 - Started server process [2076]
+2023-06-16 10:41:25,698 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:41:25,702 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:41:28,592 - uvicorn.access - INFO - send:495 - 127.0.0.1:52108 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:42:39,419 - uvicorn.error - INFO - serve:75 - Started server process [6620]
+2023-06-16 10:42:39,420 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:42:39,423 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:42:42,410 - uvicorn.access - INFO - send:495 - 127.0.0.1:52120 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:43:57,918 - uvicorn.error - INFO - serve:75 - Started server process [7520]
+2023-06-16 10:43:57,926 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:43:57,926 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:45:11,472 - uvicorn.error - INFO - serve:75 - Started server process [5956]
+2023-06-16 10:45:11,472 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:45:11,472 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:47:47,953 - uvicorn.error - INFO - serve:75 - Started server process [15704]
+2023-06-16 10:47:47,956 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:47:47,958 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:48:06,736 - uvicorn.error - INFO - serve:75 - Started server process [4608]
+2023-06-16 10:48:06,736 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:48:06,736 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:48:09,372 - uvicorn.access - INFO - send:495 - 127.0.0.1:52216 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:48:32,469 - uvicorn.error - INFO - serve:75 - Started server process [8072]
+2023-06-16 10:48:32,477 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:48:32,480 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:50:06,730 - uvicorn.error - INFO - serve:75 - Started server process [6356]
+2023-06-16 10:50:06,730 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:50:06,735 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 10:50:18,250 - uvicorn.access - INFO - send:495 - 127.0.0.1:52242 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 10:50:40,246 - uvicorn.error - INFO - serve:75 - Started server process [12152]
+2023-06-16 10:50:40,247 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 10:50:40,247 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:03:04,385 - uvicorn.error - INFO - serve:75 - Started server process [5028]
+2023-06-16 11:03:04,385 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:03:04,385 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:03:20,772 - uvicorn.access - INFO - send:495 - 127.0.0.1:52411 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:04:59,065 - uvicorn.error - INFO - serve:75 - Started server process [2796]
+2023-06-16 11:04:59,065 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:04:59,073 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:05:37,505 - uvicorn.access - INFO - send:495 - 127.0.0.1:52432 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:09:50,522 - uvicorn.error - INFO - serve:75 - Started server process [5956]
+2023-06-16 11:09:50,522 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:09:50,529 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:10:02,551 - uvicorn.access - INFO - send:495 - 127.0.0.1:52475 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:11:20,929 - uvicorn.error - INFO - serve:75 - Started server process [320]
+2023-06-16 11:11:20,930 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:11:20,933 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:11:51,816 - uvicorn.access - INFO - send:495 - 127.0.0.1:52503 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:13:26,766 - uvicorn.error - INFO - serve:75 - Started server process [10648]
+2023-06-16 11:13:26,766 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:13:26,766 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:13:38,827 - uvicorn.access - INFO - send:495 - 127.0.0.1:52528 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:17:20,755 - uvicorn.error - INFO - serve:75 - Started server process [172]
+2023-06-16 11:17:20,755 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:17:20,755 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:17:35,830 - uvicorn.access - INFO - send:495 - 127.0.0.1:52582 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:20:06,057 - uvicorn.error - INFO - serve:75 - Started server process [10764]
+2023-06-16 11:20:06,057 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:20:06,065 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:20:17,780 - uvicorn.access - INFO - send:495 - 127.0.0.1:52612 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:21:21,917 - uvicorn.error - INFO - serve:75 - Started server process [12640]
+2023-06-16 11:21:21,917 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:21:21,917 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:21:36,086 - uvicorn.access - INFO - send:495 - 127.0.0.1:52625 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:24:26,382 - uvicorn.error - INFO - serve:75 - Started server process [8872]
+2023-06-16 11:24:26,382 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:24:26,385 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:25:08,984 - uvicorn.error - INFO - serve:75 - Started server process [14752]
+2023-06-16 11:25:08,984 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:25:08,984 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:25:29,034 - uvicorn.error - INFO - serve:75 - Started server process [7468]
+2023-06-16 11:25:29,036 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:25:29,036 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:25:42,722 - uvicorn.access - INFO - send:495 - 127.0.0.1:52668 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:29:53,758 - uvicorn.access - INFO - send:495 - 127.0.0.1:52695 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 11:30:14,478 - uvicorn.error - INFO - serve:75 - Started server process [11268]
+2023-06-16 11:30:14,482 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 11:30:14,483 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 11:30:25,775 - uvicorn.access - INFO - send:495 - 127.0.0.1:52704 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:39:21,309 - uvicorn.access - INFO - send:495 - 127.0.0.1:52915 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:44:25,873 - uvicorn.error - INFO - serve:75 - Started server process [7564]
+2023-06-16 12:44:25,873 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:44:25,878 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:45:09,775 - uvicorn.error - INFO - serve:75 - Started server process [9524]
+2023-06-16 12:45:09,775 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:45:09,782 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:45:26,278 - uvicorn.access - INFO - send:495 - 127.0.0.1:52952 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:46:17,806 - uvicorn.error - INFO - serve:75 - Started server process [7972]
+2023-06-16 12:46:17,806 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:46:17,814 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:46:33,006 - uvicorn.access - INFO - send:495 - 127.0.0.1:52978 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:47:33,753 - uvicorn.error - INFO - serve:75 - Started server process [13652]
+2023-06-16 12:47:33,756 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:47:33,756 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:47:49,062 - uvicorn.access - INFO - send:495 - 127.0.0.1:52993 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:51:10,323 - uvicorn.error - INFO - serve:75 - Started server process [3480]
+2023-06-16 12:51:10,323 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:51:10,331 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:51:25,416 - uvicorn.access - INFO - send:495 - 127.0.0.1:53022 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:52:04,001 - uvicorn.error - INFO - serve:75 - Started server process [7052]
+2023-06-16 12:52:04,003 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:52:04,005 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:52:26,123 - uvicorn.access - INFO - send:495 - 127.0.0.1:53034 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:53:19,714 - uvicorn.error - INFO - serve:75 - Started server process [12300]
+2023-06-16 12:53:19,714 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:53:19,714 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:53:40,699 - uvicorn.access - INFO - send:495 - 127.0.0.1:53050 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:54:57,773 - uvicorn.error - INFO - serve:75 - Started server process [2616]
+2023-06-16 12:54:57,773 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:54:57,778 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:55:14,451 - uvicorn.access - INFO - send:495 - 127.0.0.1:53073 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:56:02,643 - uvicorn.error - INFO - serve:75 - Started server process [16336]
+2023-06-16 12:56:02,643 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 12:56:02,643 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 12:56:18,676 - uvicorn.access - INFO - send:495 - 127.0.0.1:53090 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:57:22,925 - uvicorn.access - INFO - send:495 - 127.0.0.1:53100 - "POST /api/v1 HTTP/1.1" 307
+2023-06-16 12:57:22,965 - uvicorn.access - INFO - send:495 - 127.0.0.1:53102 - "POST /api/v1/ HTTP/1.1" 400
+2023-06-16 12:57:40,494 - uvicorn.access - INFO - send:495 - 127.0.0.1:53109 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 12:58:22,444 - uvicorn.access - INFO - send:495 - 127.0.0.1:53120 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 12:58:35,093 - uvicorn.access - INFO - send:495 - 127.0.0.1:53125 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 13:00:27,475 - uvicorn.access - INFO - send:495 - 127.0.0.1:53137 - "POST /api/v1/ HTTP/1.1" 200
+2023-06-16 13:01:40,655 - uvicorn.error - INFO - serve:75 - Started server process [12540]
+2023-06-16 13:01:40,655 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 13:01:40,655 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-06-16 13:02:07,439 - uvicorn.access - INFO - send:495 - 127.0.0.1:53157 - "POST /api/v1/live HTTP/1.1" 200
+2023-06-16 13:04:22,233 - uvicorn.error - INFO - serve:75 - Started server process [11336]
+2023-06-16 13:04:22,233 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-06-16 13:04:22,239 - uvicorn.error - INFO - startup:61 - Application startup complete.

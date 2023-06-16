@@ -1,79 +1,66 @@
 from ....core.logging import logger
-from ..load_models import cv2, face_recognition, os, shutil, datetime, numpy as np, math, requests, tqdm, sys, Image, ImageOps, ImageEnhance, pickle, load_model, kerasImagePreprocess, kerasVGGFaceUtils
+from ..load_models import cv2, face_recognition, os, shutil, datetime, numpy as np, math, requests, tqdm, sys, Image, ImageOps, ImageEnhance, pickle, load_model, kerasImagePreprocess, kerasVGGFaceUtils, uuid
 from ..load_models import models
 
 CWD = os.getcwd()
 
 # Module specific business logic (will be use for endpoints)
-class RecogService:
+class liveRecogService:
     def __init__(self):
         pass
 
-    def process(self, image):
+    def process(self, path):
         # Get time now for filename
         timeNow = self.getTimeNow()
 
+        filename = f"{CWD}/data/{path}"
+
         count = 1
-        filename = f"{CWD}/data/output/recog/{timeNow}/{count}/data/input.jpeg"
+        while os.path.exists(f"{CWD}/data/output/live/{timeNow}/{count}/data/"):
+            count += 1
 
-        tmpcount = 1
-        while os.path.exists(filename):
-            filename = f"{CWD}/data/output/recog/{timeNow}/{tmpcount}/data/input.jpeg"
-            count = tmpcount
-            tmpcount += 1
+        if not os.path.exists(f"{CWD}/data/output/live/{timeNow}/"):
+            os.mkdir(f"{CWD}/data/output/live/{timeNow}/")
+        if not os.path.exists(f"{CWD}/data/output/live/{timeNow}/{count}/"):
+            os.mkdir(f"{CWD}/data/output/live/{timeNow}/{count}")
+        if not os.path.exists(f"{CWD}/data/output/live/{timeNow}/{count}/data/"):
+            os.mkdir(f"{CWD}/data/output/live/{timeNow}/{count}/data/")
 
-        if not os.path.exists(f"{CWD}/data/output/recog/{timeNow}/"):
-            os.mkdir(f"{CWD}/data/output/recog/{timeNow}/")
-        if not os.path.exists(f"{CWD}/data/output/recog/{timeNow}/{count}/"):
-            os.mkdir(f"{CWD}/data/output/recog/{timeNow}/{count}/")
-        if not os.path.exists(f"{CWD}/data/output/recog/{timeNow}/{count}/data/"):
-            os.mkdir(f"{CWD}/data/output/recog/{timeNow}/{count}/data/")
-
-        # Save the image that is sent from the request and reject if filename is not valid
-        with open(filename, "wb") as f:
-            if image.filename.split(".")[-1].lower() not in ["jpg", "png", "jpeg", "heif"]:
-                logger.warning("Filename not supported")
-                return {"path_frame": None, "path_result": None, "result": None, "error_message": "Filename not supported", "status": 0}
-            else:
-                shutil.copyfileobj(image.file, f)
-                logger.info(f"Saving image to {filename}")
 
         frame = cv2.imread(filename, cv2.IMREAD_COLOR)
 
-        filenameDatas = {"timeNow": timeNow, "id": filename.split(f"{timeNow}/")[1].split("/data")[0]}
+        filenameDatas = {"timeNow": timeNow, "count": count}
 
-        filenames, confidences = models.getFaceCoordinates(frame, filenameDatas)
+        filenames, confidences = self.getFaceCoordinates(frame, filenameDatas)
 
         if len(filenames) == 0:
             logger.info("API return success with exception: No face detected. Files removed")
             os.remove(filename)
-            return {"path_frame": None, "path_result": None, "result": None, "error_message": "No face detected", "status": 0}
+            return {"person": None, "image": None, "error_message": "No face detected", "status": 0}
         
         resultRaw = []
         for currentFilename in filenames:
-            print(currentFilename)
             try:
-                resultRaw.append(self.recogFaceRecog(f"{CWD}/data/output/recog/{currentFilename}"))
+                resultRaw.append(self.recogFaceRecog(f"{CWD}/data/output/{currentFilename}"))
             except:
-                resultRaw.append(self.recogVGG(f"{CWD}/data/output/recog/{currentFilename}", count))
+                resultRaw.append(self.recogVGG(f"{CWD}/data/output/{currentFilename}"))
 
-        frameNames = (i.split("/")[-1].split(".")[0] for i in filenames)
-        
-        result = {}
-        for i, frameName in enumerate(frameNames):
-            userDetected = resultRaw[i]
+        result = []
+        print(resultRaw)
+        for index, i in enumerate(filenames):
+            userDetected = resultRaw[index]
             if userDetected == "Unknown":
-                result.update({frameName: "Unknown"})
+                result.append({"person": "Unknown", "image" : f"{filenames[index]}"})
             else:
-                result.update({frameName: f"{userDetected}"})
+                result.append({"person": f"{userDetected}", "image" : f"{filenames[index]}"})
         
-        JSONFilename = f"{CWD}/data/output/recog/{timeNow}/{count}/data/face.json"
+        JSONFilename = f"{CWD}/data/output/live/{timeNow}/{count}/data/face.json"
 
         with open(JSONFilename, "w") as f:
             f.write(str(result))
 
         logger.info("API return success. Request fulfilled.")
-        return {"path_frame": filenames, "path_result": JSONFilename.split("output/")[1], "result": result, "status": 1}
+        return {"output" : result, "status": 1}
 
     def getTimeNow(self):
         # before: %d-%b-%y.%H-%M-%S
@@ -98,12 +85,12 @@ class RecogService:
                 confidence = i.split("jpeg (")[1].split("%")[0]
             # Threshold confidence of 85% for the API to return
             if float(confidence) > 85 or IDdetected != "Unknown":
-                tmpFaceNames.append([IDdetected.split(".")[0], f"{confidence}%"])
+                tmpFaceNames.append([IDdetected, f"{confidence}%"])
         faceNames = tmpFaceNames
 
         return faceNames[0][0]
     
-    def recogVGG(self, filename: str, requestFolderCount: int):
+    def recogVGG(self, filename: str):
         logger.info("Recognizing faces into user IDs")
 
         # Set the dimensions of the image
@@ -130,11 +117,11 @@ class RecogService:
         model = load_model(trainedFilename)
 
         facesDetected = []
-        
+
         # Resize the detected face to 224 x 224
         size = (imageWidth, imageHeight)
         resized_image = cv2.resize(imgtest, size)
-
+ 
         # Preparing the image for prediction
         x = kerasImagePreprocess.img_to_array(resized_image)
         x = np.expand_dims(x, axis=0)
@@ -180,4 +167,50 @@ class RecogService:
             value = (linear_val + ((1.0 - linear_val) * math.pow((linear_val - 0.5) * 2, 0.2))) * 100
             return str(round(value, 2)) + '%'
         
-recogService = RecogService()
+    def getFaceCoordinates(self, frame, filenameDatas):
+        logger.info("Grabbing faces detected from input image")
+
+        timeNow = filenameDatas["timeNow"]
+        count = filenameDatas["count"]
+        detector = cv2.FaceDetectorYN.create(f"{CWD}/ml-models/face_detection_yunet/face_detection_yunet_2022mar.onnx", "", (224, 224))
+
+        height, width, channels = frame.shape
+
+        # Set input size
+        detector.setInputSize((width, height))
+        # Getting detections
+        channel, faces = detector.detect(frame)
+        faces = faces if faces is not None else []
+
+        boxes = []
+        confidences = []
+        filenames = []
+        numFace = 1
+        
+        for face in faces:
+            box = list(map(int, face[:4]))
+            boxes.append(box)
+            x = box[0]
+            y = box[1]
+            w = box[2]
+            h = box[3]
+            faceCropped = frame[y:y + h, x:x + w]
+            # boxes = cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
+
+            ### SEMENTARA MASIH TANPA FILTERING MINIMUM PIXEL SHAPE 50
+            # if w >= 50 and h >= 50 and x >= 0 and y >= 0:
+            filename = f"{CWD}/data/output/live/{timeNow}/{count}/data/{uuid.uuid4()}-{numFace}.jpeg"
+            filenames.append(filename.split("/output/")[1])
+            cv2.imwrite(filename, faceCropped)
+            cv2.imwrite(filename, models.resize(filename, 360))
+            numFace += 1
+                
+            confidence = face[-1]
+            confidence = "{:.2f}%".format(confidence*100)
+
+            confidences.append(confidence)
+
+        logger.info(f"Face grab success. Got total faces of {len(filenames)}")
+        return (filenames, confidences)
+        
+LiveRecogService = liveRecogService()
