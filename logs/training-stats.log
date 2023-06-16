@@ -965,3 +965,9 @@
 2023-06-16 13:02:06,598 - app - INFO - recogVGG:96 - Recognizing faces into user IDs
 2023-06-16 13:02:07,437 - app - INFO - process:64 - API return success. Request fulfilled.
 2023-06-16 13:04:21,932 - app - INFO - encodeFacesVGG:64 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-06-16 14:19:52,996 - app - INFO - encodeFacesVGG:64 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-06-16 14:21:03,037 - app - INFO - getFaceCoordinates:171 - Grabbing faces detected from input image
+2023-06-16 14:21:03,177 - app - INFO - getFaceCoordinates:213 - Face grab success. Got total faces of 1
+2023-06-16 14:21:03,184 - app - INFO - recogFaceRecog:70 - Recognizing faces into user IDs
+2023-06-16 14:21:03,369 - app - INFO - recogVGG:94 - Recognizing faces into user IDs
+2023-06-16 14:21:14,655 - app - INFO - process:62 - API return success. Request fulfilled.

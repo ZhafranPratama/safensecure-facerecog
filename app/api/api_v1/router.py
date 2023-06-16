@@ -2,7 +2,7 @@
 from fastapi import APIRouter
 from .endpoints.facerecog_endpoint import Recog
 from .endpoints.liverecog_endpoint import liveRecog
-from fastapi import UploadFile, File, Form
+from fastapi import UploadFile, File, Form, Request
 
 router = APIRouter(
     prefix='/api/v1',
@@ -19,8 +19,9 @@ async def faceRecog(file: UploadFile = File(...)):
     return result
 
 @router.post('/live')
-async def faceRecog(path: str = Form(...)):
+async def faceRecog(data : Request):
     recog = liveRecog()
-    result = recog.get_prediction(path)
+    path = await data.json()
+    result = recog.get_prediction(path["path"])
 
     return result
