@@ -298,18 +298,21 @@ class Models:
 
             ### SEMENTARA MASIH TANPA FILTERING MINIMUM PIXEL SHAPE 50
             # if w >= 50 and h >= 50 and x >= 0 and y >= 0:
-            filename = f"{CWD}/data/output/recog/{timeNow}/{id}/frame/frame{str(count).zfill(3)}.jpeg"
-            if not os.path.exists(f"{CWD}/data/output/recog/{timeNow}/{id}/frame/"):
-                os.mkdir(f"{CWD}/data/output/recog/{timeNow}/{id}/frame/")
-            filenames.append(filename.split("/recog/")[1])
-            cv2.imwrite(filename, faceCropped)
-            cv2.imwrite(filename, self.resize(filename, 360))
-            count += 1
-                
-            confidence = face[-1]
-            confidence = "{:.2f}%".format(confidence*100)
+            try:
+                filename = f"{CWD}/data/output/recog/{timeNow}/{id}/frame/frame{str(count).zfill(3)}.jpeg"
+                if not os.path.exists(f"{CWD}/data/output/recog/{timeNow}/{id}/frame/"):
+                    os.mkdir(f"{CWD}/data/output/recog/{timeNow}/{id}/frame/")
+                filenames.append(filename.split("/recog/")[1])
+                cv2.imwrite(filename, faceCropped)
+                cv2.imwrite(filename, self.resize(filename, 360))
+                count += 1
+                    
+                confidence = face[-1]
+                confidence = "{:.2f}%".format(confidence*100)
 
-            confidences.append(confidence)
+                confidences.append(confidence)
+            except:
+                pass
 
         logger.info(f"Face grab success. Got total faces of {len(filenames)}")
         return (filenames, confidences)

@@ -199,16 +199,19 @@ class liveRecogService:
 
             ### SEMENTARA MASIH TANPA FILTERING MINIMUM PIXEL SHAPE 50
             # if w >= 50 and h >= 50 and x >= 0 and y >= 0:
-            filename = f"{CWD}/data/output/live/{timeNow}/{count}/data/{uuid.uuid4()}-{numFace}.jpeg"
-            filenames.append(filename.split("/output/")[1])
-            cv2.imwrite(filename, faceCropped)
-            cv2.imwrite(filename, models.resize(filename, 360))
-            numFace += 1
-                
-            confidence = face[-1]
-            confidence = "{:.2f}%".format(confidence*100)
+            try:
+                filename = f"{CWD}/data/output/live/{timeNow}/{count}/data/{uuid.uuid4()}-{numFace}.jpeg"
+                filenames.append(filename.split("/output/")[1])
+                cv2.imwrite(filename, faceCropped)
+                cv2.imwrite(filename, models.resize(filename, 360))
+                numFace += 1
+                    
+                confidence = face[-1]
+                confidence = "{:.2f}%".format(confidence*100)
 
-            confidences.append(confidence)
+                confidences.append(confidence)
+            except:
+                pass
 
         logger.info(f"Face grab success. Got total faces of {len(filenames)}")
         return (filenames, confidences)
